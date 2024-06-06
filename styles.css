@@ -9,6 +9,7 @@ body {
     margin: 0;
 }
 
+
 .container {
     background-color: #800000;
     padding: 20px;
@@ -161,4 +162,38 @@ body {
 .submit-btn:hover {
     background-color: #8b4300;
     box-shadow: 0 -1px 24px 0 #d69e04;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left, .right {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .left h1 {
+        font-size: 20px;
+    }
+
+    .left p, .left ul {
+        font-size: 14px;
+    }
+
+    .left .form input {
+        font-size: 14px;
+    }
+
+    .left .form input[type="button"] {
+        font-size: 16px;
+    }
+
+    .banner-img {
+        margin-top: 10px;
+    }
 }
