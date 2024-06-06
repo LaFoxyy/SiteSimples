@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBQ Show - São Luiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Temos uma dica importante:</h1>
+            <p>Abriremos a pré-venda 🔥 no valor de R$ 150,00 exclusivo no dia 06/05 para quem fizer parte do GRUPO VIP no WhatsApp.</p>
+            <ul>
+                <li>Link de vendas disponível no grupo às 12h.</li>
+                <li>Serão apenas 48 horas de vendas neste lote ou 500 ingressos.</li>
+                <li>Primeira pessoa que comprar o ingresso ganhará R$ 500,00 em bebidas no evento.</li>
+                <li>Informações do evento em primeira mão e sorteios exclusivos.</li>
+            </ul>
+            <form id="participationForm" action="https://api.whatsapp.com/send?phone=558596754008&text=Teste">
+                <div class="input-group">
+                    <input type="text" id="name" name="name" placeholder="Insira seu nome" required />
+                </div>
+                <div class="input-group">
+                    <input type="tel" id="tel" name="phone" maxlength="15" placeholder="WhatsApp: (00) 00000-0000" required />
+                </div>
+                <input type="submit" value="Participe dessa Festa!" />
+            </form>
+            <div class="footer">
+                De acordo com a lei 12.965/2014 e 13.709/2018, autorizo enviarem comunicações por e-mail ou qualquer outro meio e concordo com a sua política de privacidade.
+            </div>
+        </div>
+        <div class="right">
+            <a href="https://api.whatsapp.com/send?phone=558596754008&text=Teste" id="clickableImage">
+                <img src="Banner.jpg" alt="BBQ Show - São Luiz" class="banner-img" id="submitImage">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
