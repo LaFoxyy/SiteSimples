@@ -16,14 +16,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     submitButton.addEventListener('click', function() {
         if (validateForm()) {
-            window.location.href = 'https://api.whatsapp.com/send?phone=558596754008&text=Teste';
+            window.location.href = 'https://chat.whatsapp.com/CLE9WysmJOOFH8D7HgcLxs';
         }
     });
 
     clickableImage.addEventListener('click', function(e) {
         e.preventDefault();
         if (validateForm()) {
-            window.location.href = 'https://api.whatsapp.com/send?phone=558596754008&text=Teste';
+            window.location.href = 'https://chat.whatsapp.com/CLE9WysmJOOFH8D7HgcLxs';
         }
     });
 });
