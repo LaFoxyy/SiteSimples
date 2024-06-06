@@ -143,3 +143,22 @@ body {
     transform: scale(0.95);
     filter: brightness(0.8);
 }
+
+.submit-btn {
+    width: 100%;
+    padding: 13px;
+    background-color: #c07402;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 -1px 24px 0 #f88e04;
+    border: 1px solid transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #8b4300;
+    box-shadow: 0 -1px 24px 0 #d69e04;
+}

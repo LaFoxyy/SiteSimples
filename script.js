@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('participationForm');
+    const submitButton = document.getElementById('submitButton');
+    const clickableImage = document.getElementById('clickableImage');
 
     function validateForm() {
         const name = document.getElementById('name').value;
@@ -13,9 +14,16 @@ document.addEventListener('DOMContentLoaded', function() {
         return true;
     }
 
-    form.addEventListener('submit', function(e) {
-        if (!validateForm()) {
-            e.preventDefault();
+    submitButton.addEventListener('click', function() {
+        if (validateForm()) {
+            window.location.href = 'https://api.whatsapp.com/send?phone=558596754008&text=Teste';
+        }
+    });
+
+    clickableImage.addEventListener('click', function(e) {
+        e.preventDefault();
+        if (validateForm()) {
+            window.location.href = 'https://api.whatsapp.com/send?phone=558596754008&text=Teste';
         }
     });
 });

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BBQ Show - São Luiz</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -18,21 +18,21 @@
                 <li>Primeira pessoa que comprar o ingresso ganhará R$ 500,00 em bebidas no evento.</li>
                 <li>Informações do evento em primeira mão e sorteios exclusivos.</li>
             </ul>
-            <form id="participationForm" action="https://api.whatsapp.com/send?phone=558596754008&text=Teste">
+            <form id="participationForm">
                 <div class="input-group">
                     <input type="text" id="name" name="name" placeholder="Insira seu nome" required />
                 </div>
                 <div class="input-group">
                     <input type="tel" id="tel" name="phone" maxlength="15" placeholder="WhatsApp: (00) 00000-0000" required />
                 </div>
-                <input type="submit" value="Participe dessa Festa!" />
+                <button type="button" id="submitButton" class="submit-btn">Participe dessa Festa!</button>
             </form>
             <div class="footer">
                 De acordo com a lei 12.965/2014 e 13.709/2018, autorizo enviarem comunicações por e-mail ou qualquer outro meio e concordo com a sua política de privacidade.
             </div>
         </div>
         <div class="right">
-            <a href="https://api.whatsapp.com/send?phone=558596754008&text=Teste" id="clickableImage">
+            <a href="#" id="clickableImage">
                 <img src="Banner.jpg" alt="BBQ Show - São Luiz" class="banner-img" id="submitImage">
             </a>
         </div>
