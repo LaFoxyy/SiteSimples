@@ -16,14 +16,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     submitButton.addEventListener('click', function() {
         if (validateForm()) {
-            window.location.href = 'https://chat.whatsapp.com/CLE9WysmJOOFH8D7HgcLxs';
+            window.location.href = 'https://chat.whatsapp.com/GMe7MCeWc8Z2rS9AeSK4Nk';
         }
     });
 
     clickableImage.addEventListener('click', function(e) {
         e.preventDefault();
         if (validateForm()) {
-            window.location.href = 'https://chat.whatsapp.com/CLE9WysmJOOFH8D7HgcLxs';
+            window.location.href = 'https://chat.whatsapp.com/GMe7MCeWc8Z2rS9AeSK4Nk';
         }
     });
 });
