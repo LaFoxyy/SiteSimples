@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const name = document.getElementById('name').value;
         const phone = document.getElementById('tel').value;
 
-        fetch('https://gcamancio.app.n8n.cloud/webhook-test/af7f3bf8-a2d5-438f-8108-582373498c4f', {
+        fetch('https://gcamancio.app.n8n.cloud/webhook/af7f3bf8-a2d5-438f-8108-582373498c4f', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
