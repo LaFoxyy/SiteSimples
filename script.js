@@ -16,9 +16,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function sendWebhook(callback) {
         const name = document.getElementById('name').value;
-        const phone = document.getElementById('tel').value;
+        let phone = document.getElementById('tel').value;
 
-        fetch('https://gcamancio.app.n8n.cloud/webhook/af7f3bf8-a2d5-438f-8108-582373498c4f', {
+        // Adiciona o prefixo '55' ao número de telefone
+        if (!phone.startsWith('55')) {
+            phone = '55' + phone;
+        }
+
+        fetch('https://hook.us1.make.com/u7ochwljcpkctjhlvoapn9x28uy39ugo', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -28,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 phone: phone
             })
         })
-        .then(response => response.json())
+        .then(response => response.text())  // Change to response.text() to handle non-JSON response
         .then(data => {
             console.log('Success:', data);
             callback();  // Call the callback function after successful webhook
