@@ -1,5 +1,5 @@
 body {
-    background-color: #360101;
+    background-color: #630404;
     color: white;
     font-family: Arial, sans-serif;
     display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: #800000;
+    background-color: rgba(186,30,52,255);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -23,6 +23,12 @@ body {
     box-sizing: border-box;
 }
 
+.icon img {
+    width: 200px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .button-row {
     display: flex;
     justify-content: space-between;
@@ -32,7 +38,7 @@ body {
 
 .show-btn {
     padding: 15px 20px;
-    background-color: #c07402;
+    background-color: #cf7f07;
     color: #fff;
     border-radius: 15px;
     box-shadow: 0 -1px 24px 0 #f88e04;
