@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             phone = '55' + phone;
         }
 
-        fetch('https://hook.us1.make.com/u7ochwljcpkctjhlvoapn9x28uy39ugo', {
+        fetch('https://hook.us1.make.com/jvx7s36o654lmqpygtqj937ufifl1f95', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
