@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     submitButton.addEventListener('click', function() {
         if (validateForm()) {
             sendWebhook(function() {
-                window.location.href = 'https://chat.whatsapp.com/Em891udg38hDvNIANHoSBQ';
+                window.location.href = 'https://chat.whatsapp.com/JrsODwcyOL37VX1fdlANck';
             });
         }
     });
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         if (validateForm()) {
             sendWebhook(function() {
-                window.location.href = 'https://chat.whatsapp.com/Em891udg38hDvNIANHoSBQ';
+                window.location.href = 'https://chat.whatsapp.com/JrsODwcyOL37VX1fdlANck';
             });
         }
     });
