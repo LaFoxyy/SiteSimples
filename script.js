@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     submitButton.addEventListener('click', function() {
         if (validateForm()) {
             sendWebhook(function() {
-                window.location.href = 'https://chat.whatsapp.com/JrsODwcyOL37VX1fdlANck';
+                window.location.href = 'https://www.bilheteriadigital.com/festival-bbq-show-2024-sao-luis-09-de-novembro';
             });
         }
     });
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         if (validateForm()) {
             sendWebhook(function() {
-                window.location.href = 'https://chat.whatsapp.com/JrsODwcyOL37VX1fdlANck';
+                window.location.href = 'https://www.bilheteriadigital.com/festival-bbq-show-2024-sao-luis-09-de-novembro';
             });
         }
     });
